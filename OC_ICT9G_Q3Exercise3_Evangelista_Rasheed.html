@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+	<style type="text/css">
+		img{
+			height: 100px;
+			width: 90px;
+			}
+
+			h1,h2,h3, input{
+				font-family: Gloock, serif;
+			}
+			body{
+				background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/71J6YPxNauhFABbjHpGluJ/631bd6980b0a430d5b476ef331abb2b5/release_1_hogwarts.png');
+			}
+	</style>
+
+	<title>Q3 Exercise 3</title>
+</head>
+<body>
+	<div class="container">
+		<h2 class="bg-warning text-secondary text-center">HOGWARTS SCHOOL OF WITCHCRAFT AND WIZARDRY</h2>
+		<table class="table table-dark table-hover">
+			<tr>
+				<td>Picture</td>
+				<td>Firstname</td>
+				<td>Lastname</td>
+				<td>House</td>
+			</tr>
+			<tr>
+				<td><img src="https://static.wikia.nocookie.net/characters/images/a/a5/Latest_%2810%29.jpg/revision/latest/scale-to-width-down/1200?cb=20141230074301" class="img-thumbnail"></td>
+				<td>Hermione</td>
+				<td>Granger</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src="https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg" class="img-thumbnail"></td>
+				<td>Harry</td>
+				<td>Potter</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Ron_Weasley_poster.jpg/220px-Ron_Weasley_poster.jpg" class="img-thumbnail"></td>
+				<td>Ron</td>
+				<td>Weasley</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src="https://i.insider.com/636c220bf5877200181c32c7?width=700" class="img-thumbnail"></td>
+				<td>Luna</td>
+				<td>Lovegood</td>
+				<td>Ravenclaw</td>
+			</tr>
+			<tr>
+				<td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Draco_Mal.JPG/220px-Draco_Mal.JPG" class="img-thumbnail"></td>
+				<td>Draco</td>
+				<td>Malfoy</td>
+				<td>Slytherin</td>
+			</tr>
+		</table>
+
+		<div class="container">
+			<form class="form-group">
+				Enter Firstname:<input type="text" name="fname" class="form-control">
+				Enter Lastname:<input type="text" name="fname" class="form-control">
+				Choose House:
+				<select>
+					<option>Gryffindor</option>
+					<option>Ravenclaw</option>
+					<option>Hufflepuff</option>
+					<option>Slytherin</option>
+				</select>
+				Select Birthdate: <input type="date" name="bday" class="form-control">
+				Upload Picture: <input type="file" name="pic" class="form-control">
+				<input type="submit" name="submit" value="Add Student" class="btn btn-success  btn-block">
+				<input type="reset" name="cancel" value="Cancel" class="btn btn-danger btn-block">
+			</form>
+		</div>
+	</div>
+	<br>
+	<footer>&copy;REvangelista2023 References:
+		<br>
+		1. https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg
+		2. https://static.wikia.nocookie.net/characters/images/a/a5/Latest_%2810%29.jpg/revision/latest/scale-to-width-down/1200?cb=20141230074301
+		3. https://images.ctfassets.net/usf1vwtuqyxm/71J6YPxNauhFABbjHpGluJ/631bd6980b0a430d5b476ef331abb2b5/release_1_hogwarts.png
+		4. https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Ron_Weasley_poster.jpg/220px-Ron_Weasley_poster.jpg
+		5. https://i.insider.com/636c220bf5877200181c32c7?width=700
+		6. https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Draco_Mal.JPG/220px-Draco_Mal.JPG
+		<br>
+
+	</footer>
+
+</body>
+</html>
